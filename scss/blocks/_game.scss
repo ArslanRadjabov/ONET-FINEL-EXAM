@@ -1,0 +1,40 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(21, 4, 66);
+}
+
+.list {
+    position: relative;
+    margin: 10px auto;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2px;
+}
+
+.item__box {
+    border-radius: 5px;
+    width: 60px;
+    height: 55px;
+    margin-bottom: 0 !important;
+}
+
+.game__btn {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(253, 242, 183);
+    width: 100%;
+    height: 100%;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin: 50px auto;
+}
