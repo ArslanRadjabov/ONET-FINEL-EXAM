@@ -68,7 +68,7 @@ function startTimer() {
             document.getElementById("windowMain").style.display = "block";
             listMain.style.display = ('none')
         }
-    }, 100);
+    }, 500);
 }
 
 function formatTime(time) {
